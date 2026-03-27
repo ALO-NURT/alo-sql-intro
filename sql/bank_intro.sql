@@ -1,3 +1,5 @@
+-- Active: 1774593740975@@alo-nurt.pl@3306@alo_test_db
+-- Active: 1774593740975@@alo-nurt.pl@3306
 # 
 
 -- to jest komentarz - wszystko w linijce po znaku # jest ignorowane podczas wykonania kodu
