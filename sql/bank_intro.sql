@@ -1,3 +1,5 @@
+-- Active: 1774593929257@@alo-nurt.pl@3306@alo_test_db
+-- Active: 1774593929257@@alo-nurt.pl@3306
 -- 
 
 -- to jest komentarz - wszystko w linijce po znaku # jest ignorowane podczas wykonania kodu
@@ -6,7 +8,9 @@
 
 select * from bank_client; # średnik oznacza koniec zapytania - gdyby go nie było wszystkie linijki poniżej byłyby traktowane jako jego dalszy ciąg
 
+
 -- 1. PROJEKCJA - wybranie wyłącznie określonych kolumn z tabeli
+select pesel, first_name, last_name FROM bank_client;
 
 
 
