@@ -9,10 +9,12 @@ select * from bank_client; -- średnik oznacza koniec zapytania - gdyby go nie b
 
 -- 1. PROJEKCJA - wybranie wyłącznie określonych kolumn z tabeli
 
-
+select
 
 -- 2. SELEKCJA - wybranie z tabeli wierszy spełniających dany warunek
-
-
+select * from bank_client
+where first_name = "Anna";
 
 -- 3. SORTOWANIE
+select * from bank_client
+order by pesel desc;
