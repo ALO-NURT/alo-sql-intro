@@ -20,5 +20,9 @@ select pesel, first_name, last_name FROM bank_client;
 
 
 -- 3. SORTOWANIE
+select * from bank_client
 order by pesel
+where first_name = "Anna"
+
+
 
