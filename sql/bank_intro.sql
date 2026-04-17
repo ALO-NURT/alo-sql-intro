@@ -1,3 +1,4 @@
+-- Active: 1776404696050@@alo-nurt.pl@3306@alo_test_db
 -- 
 
 -- to jest komentarz - wszystko w linijce po znaku # jest ignorowane podczas wykonania kodu
@@ -15,3 +16,5 @@ select * from bank_client; # średnik oznacza koniec zapytania - gdyby go nie by
 
 
 -- 3. SORTOWANIE
+select* from bank_client
+order by pesel
