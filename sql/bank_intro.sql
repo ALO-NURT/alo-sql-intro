@@ -14,8 +14,11 @@ select pesel, first_name, last_name FROM bank_client;
 
 
 
+
 -- 2. SELEKCJA - wybranie z tabeli wierszy spełniających dany warunek
 
 
 
 -- 3. SORTOWANIE
+order by pesel
+
