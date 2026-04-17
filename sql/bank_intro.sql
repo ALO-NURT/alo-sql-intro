@@ -17,3 +17,5 @@ select * from bank_client; -- średnik oznacza koniec zapytania - gdyby go nie b
 
 
 -- 3. SORTOWANIE
+select*from bank_client
+ORDER BY pesel;
