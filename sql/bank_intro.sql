@@ -18,3 +18,7 @@ where first_name = "Anna";
 -- 3. SORTOWANIE
 select * from bank_client
 order by pesel desc;
+--4Łączenie
+select ba.account_number, bc.first_name, bc.last_name from bank_account
+join bank_client as bc
+on bc.id = ba.client_id.
