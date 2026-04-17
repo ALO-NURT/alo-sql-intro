@@ -1,3 +1,4 @@
+-- Active: 1776405108330@@alo-nurt.pl@3306@alo_test_db
 
 
 -- to jest komentarz - wszystko w linijce po znaku # jest ignorowane podczas wykonania kodu
@@ -13,7 +14,7 @@ select * from bank_client;
 
 
 -- 2. SELEKCJA - wybranie z tabeli wierszy spełniających dany warunek
-
+select * from bank_client order by pesel;
 
 
 -- 3. SORTOWANIE  
