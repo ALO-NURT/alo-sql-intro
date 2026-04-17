@@ -17,3 +17,10 @@ select * from bank_client
 where first_name = "Anna";
 
 -- 3. SORTOWANIE
+select * from bank_client
+order by pesel desc;
+
+-- 4. ŁĄCZENIE
+select ba.account_number, bank_client.first_name, bank_client.last_name from bank_account as ba
+join bank_client
+on bank_client.id = ba.client_id;
