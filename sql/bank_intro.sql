@@ -28,3 +28,14 @@ ORDER BY pesel DESC;
 select account_number from bank_account as ba 
 join bank_client as bc 
 on bc.id = ba.client_id;
+-- 5. AGREGACJA
+select count(*) from bank_account;
+
+select distinct account_type from bank_account;
+
+select account_type, count(*) as ilosc from bank_account group by account_type order by account_type desc;
+
+select first_name, count(*) as ilosc 
+from bank_client 
+group by first_name 
+order by first_name desc;
