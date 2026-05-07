@@ -15,3 +15,6 @@ select * from bank_client; # średnik oznacza koniec zapytania - gdyby go nie by
 
 
 # 3. SORTOWANIE
+X
+
+
