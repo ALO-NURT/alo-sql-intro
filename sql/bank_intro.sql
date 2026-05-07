@@ -18,3 +18,4 @@ select * from bank_client; # średnik oznacza koniec zapytania - gdyby go nie by
 X
 
 
+Y
